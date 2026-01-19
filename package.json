@@ -1,0 +1,59 @@
+{
+  "name": "universal-error-normalizer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A lightweight, framework-agnostic library that normalizes errors from different sources into a single predictable shape",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "error",
+    "error-handling",
+    "normalize",
+    "fetch",
+    "axios",
+    "graphql",
+    "typescript",
+    "api",
+    "http"
+  ],
+  "author": "Laurentiu Gingioveanu <laurentiu@eagertowork.ro>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaurentiu/universal-error-normalizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glaurentiu/universal-error-normalizer/issues"
+  },
+  "homepage": "https://github.com/glaurentiu/universal-error-normalizer#readme"
+}
