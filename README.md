@@ -1,5 +1,8 @@
 # Universal Error Normalizer
-
+[![npm version](https://badge.fury.io/js/universal-error-normalizer.svg)](https://www.npmjs.com/package/universal-error-normalizer)
+[![npm downloads](https://img.shields.io/npm/dy/universal-error-normalizer)](https://www.npmjs.com/package/universal-error-normalizer)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
 **Stop writing error adapters. Normalize once. Handle consistently.**
 
 A lightweight, framework-agnostic library that normalizes errors from different sources (REST, fetch, Axios, GraphQL, runtime errors) into a single predictable error shape that frontend and backend developers can rely on.
